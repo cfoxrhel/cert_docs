@@ -55,7 +55,7 @@ when:
 ---
 ansible-navigator:
   execution-environment:
-    image: utility.lab.example.com/ee-supported-rhel8:latest
+    image:  <registry URL>/<image name>:<tag>
     pull:
       policy: missing
 
