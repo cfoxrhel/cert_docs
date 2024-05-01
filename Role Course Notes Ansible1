@@ -1,9 +1,9 @@
-# installing basics for ansible
+##### installing basics for ansible
 sudo dnf install -y ansible ansible-navigator
 podman login -u @username -p @password  <registry URL>
 ansible-navigator images
 
-# ansible.cfg
+##### ansible.cfg
 [defaults]
 inventory=./inventory
 roles_path=./roles
@@ -11,19 +11,20 @@ collections_path=./mycollections
 vault_password_file=./secretfile.txt
 ask_pass=false
 
-[privilege_escelation]
+[privilege_escalation]
 become=true
 become_method=sudo
 become_user=root
 become_ask_pass=false
 
-# SAVE TIME!!!
+###### SAVE TIME!!!
 # use short names instead of full module path since there is no overlapping modules in our lab environment
-# note this is NOT best practice at all, in the wild we shoudl always use full path name as there will be overlapping module names
+# note this is NOT best practice at all, in the wild we should always use full path name. 
 #example:
   file: instead of ansible.builtin.file
 
-# setting aliases to speedup commands
+##### setting aliases to speedup commands
+# put in ~/.bashrc
 alias 'ans=ansible-navigator run -m stdout --syntax-check'
 alias 'anr=ansible-navigator run -m stdout'
 alias 'and=ansible-navigator doc -m stdout'
@@ -43,6 +44,7 @@ when: "inventory_hostname in groups['@inventoryfilegroupname']"
 #####  users #####
 when: 
   - "'@inventoryfilegroupname1' in group_names or '@inventoryfilegroupname2' in group_names"
+  - "''"
 
 ##### roles 
 - name: do this fucntion
@@ -89,9 +91,12 @@ ansible.builtin.template
         "{{ hostvars[host]['ansible_facts']['@itemdesired']}}"
         {% endfor %}
 
-# roles course principals that i really like
+##### roles course principals that i really like
 1) leveraging vaults to and other file lists to populate values for modules
 2) installing roles and collections with requirements files instead of typing the same command over and over again
+
+
+##### block / rescue
 
 
 
