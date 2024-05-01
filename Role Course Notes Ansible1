@@ -97,6 +97,7 @@ ansible.builtin.template
 
 
 ##### block / rescue
+https://role.rhu.redhat.com/rol-rhu/app/courses/rh294-9.0/pages/ch04s06
 
 ##### set into ~/.vimrc
 set paste
@@ -106,5 +107,35 @@ set sts=2
 set sw=2
 set cuc
 set cul
+
+
+##### guided exercise / labs / info pages of note.
+https://role.rhu.redhat.com/rol-rhu/app/courses/rh294-9.0/pages/ch02s04
+https://role.rhu.redhat.com/rol-rhu/app/courses/rh294-9.0/pages/ch01s04
+https://role.rhu.redhat.com/rol-rhu/app/courses/rh294-9.0/pages/ch01s03
+https://role.rhu.redhat.com/rol-rhu/app/courses/rh294-9.0/pages/ch09s02
+https://role.rhu.redhat.com/rol-rhu/app/courses/rh294-9.0/pages/ch09
+https://role.rhu.redhat.com/rol-rhu/app/courses/rh294-9.0/pages/ch07s07
+https://role.rhu.redhat.com/rol-rhu/app/courses/rh294-9.0/pages/ch07s08
+https://role.rhu.redhat.com/rol-rhu/app/courses/rh294-9.0/pages/ch02s08
+https://role.rhu.redhat.com/rol-rhu/app/courses/rh294-9.0/pages/ch07s09
+https://role.rhu.redhat.com/rol-rhu/app/courses/rh294-9.0/pages/ch07s06
+https://role.rhu.redhat.com/rol-rhu/app/courses/rh294-9.0/pages/ch07s05
+https://role.rhu.redhat.com/rol-rhu/app/courses/rh294-9.0/pages/ch07s04
+https://role.rhu.redhat.com/rol-rhu/app/courses/rh294-9.0/pages/ch05s04
+https://role.rhu.redhat.com/rol-rhu/app/courses/rh294-9.0/pages/ch09s09
+https://role.rhu.redhat.com/rol-rhu/app/courses/rh294-9.0/pages/ch05
+https://role.rhu.redhat.com/rol-rhu/app/courses/rh294-9.0/pages/ch09s07
+https://role.rhu.redhat.com/rol-rhu/app/courses/rh294-9.0/pages/ch09s08
+https://role.rhu.redhat.com/rol-rhu/app/courses/rh294-9.0/pages/ch04s06
+https://role.rhu.redhat.com/rol-rhu/app/courses/rh294-9.0/pages/ch03s07
+https://role.rhu.redhat.com/rol-rhu/app/courses/rh294-9.0/pages/ch05s05
+https://role.rhu.redhat.com/rol-rhu/app/courses/rh294-9.0/pages/ch03s04
+https://role.rhu.redhat.com/rol-rhu/app/courses/rh294-9.0/pages/ch09s04
+https://role.rhu.redhat.com/rol-rhu/app/courses/rh294-9.0/pages/ch09s11
+https://role.rhu.redhat.com/rol-rhu/app/courses/rh294-9.0/pages/ch03s03
+https://role.rhu.redhat.com/rol-rhu/app/courses/rh294-9.0/pages/ch09s06
+
+
 
         
