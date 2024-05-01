@@ -98,7 +98,13 @@ ansible.builtin.template
 
 ##### block / rescue
 
-
-
+##### set into ~/.vimrc
+set paste
+set autoindent
+set ts=2
+set sts=2
+set sw=2
+set cuc
+set cul
 
         
